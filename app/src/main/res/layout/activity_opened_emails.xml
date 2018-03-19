@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sellulose.app.OpenedEmailsActivity"
+    android:fitsSystemWindows="true">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_opened_emails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/app_grad_bg"
+        android:elevation="4dp">
+
+        <TextView
+            android:id="@+id/text_toolbar_title_opened_emails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/opened_emails"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:shadowColor="#505050"
+            android:shadowDx="0.0"
+            android:shadowDy="1.0"
+            android:shadowRadius="8.0"
+            android:gravity="center_horizontal"
+            android:paddingRight="70dp"
+            android:paddingEnd="70dp"
+            android:paddingStart="0dp"
+            android:paddingLeft="0dp"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/list_opened_emails"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_opened_emails"
+        android:scrollbars="vertical"
+        app:theme="@style/AppTheme">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

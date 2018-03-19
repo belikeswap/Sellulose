@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "798485687915",
+    "project_id": "firebase-sellulose"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798485687915:android:2dae72bef5e6aa40",
+        "android_client_info": {
+          "package_name": "com.sellulose.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798485687915-m8h59ffl8eh7li91l74nfnu115qmne8q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sellulose.app",
+            "certificate_hash": "08dbfb32af79c14c5d887fdd047708fa36cfe988"
+          }
+        },
+        {
+          "client_id": "798485687915-i7kehpqmrrs92v8krtu7vmqj3ph9i4to.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxO1Cq5DS0mvPbCdgZtfkNiGpuboN64aE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\CodeStudio\Sellulose\libs\SmartStore\src\main\jniLibs"/><source path="E:\CodeStudio\Sellulose\libs\SmartStore\libs"/></dataSet><dataSet config="debug"><source path="E:\CodeStudio\Sellulose\libs\SmartStore\src\debug\jniLibs"/></dataSet></merger>

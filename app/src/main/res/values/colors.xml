@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFD116</color>
+    <color name="colorPrimaryDark">#c6a10e</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="salesforce">#0892d0</color>
+
+    <color name="colorAmber_A400">#FFC400</color>
+    <color name="colorAmber_900">#ffa000</color>
+    <!-- <color name="colorAccent">#ffd621</color> -->
+
+    <color name="black_overlay">#66000000</color>
+</resources>

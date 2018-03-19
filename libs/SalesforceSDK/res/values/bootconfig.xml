@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="remoteAccessConsumerKey">3MVG9d8..z.hDcPL95RgmpZl0CQzyIWrMjpqdZMPIu9emHRqW81v8WUAMYThzBf4ED08ryKVEm98X_6VyGl0Q</string>
+    <string name="oauthRedirectURI">sellulose://auth/success/</string>
+    <string-array name="oauthScopes">
+        <item>api</item>
+        <item>web</item>
+    </string-array>
+    <string name="androidPushNotificationClientId"></string>
+</resources>

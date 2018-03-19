@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/central_line_login_salesforce"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:src="@android:color/transparent"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salesforce_login_instruction"
+        android:textSize="16sp"
+        android:layout_above="@id/central_line_login_salesforce"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+
+    <Button
+        android:id="@+id/button_login_salesforce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/central_line_login_salesforce"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login_salesforce"
+        android:background="@color/salesforce"
+        android:textColor="@android:color/white"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

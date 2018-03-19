@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Sellulose</string>
+
+    <string name="title_activity_splash">Sellulose</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="dummy_email">example@sellulose.com</string>
+    <string name="dummy_email_list">Recent emails will be shown here…</string>
+
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="start_sign_in">Let\'s get started…</string>
+    <string name="sign_in_info">Sign-in using your Google account to start using Sellulose</string>
+    <string name="load_name">Loading name…</string>
+    <string name="load_email">Loading email…</string>
+    <string name="load_plan">LOADING PLAN</string>
+    <string name="load">Loading…</string>
+    <string name="opened_emails">Opened Emails</string>
+
+    <string name="account_type">com.sellulose.app.login</string>
+    <string name="app_package">com.sellulose.app</string>
+    <string name="welcome">Welcome %s</string>
+    <string name="logout_button">Logout</string>
+    <string name="fetch_contacts_button">Fetch Contacts</string>
+    <string name="fetch_accounts_button">Fetch Accounts</string>
+    <string name="clear_button">Clear</string>
+    <string name="salesforce_login_instruction">Login with Salesforce to sync all your reminders with this app…</string>
+    <string name="login_salesforce">Login with Salesforce</string>
+    <string name="card_label">CARD LABEL</string>
+    <string name="task_name">Task Name</string>
+    <string name="task_contact">Task Contact</string>
+    <string name="due_date">Due Date</string>
+    <string name="reminders">Reminders</string>
+
+</resources>
